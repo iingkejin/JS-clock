@@ -114,7 +114,7 @@ section em {
   right: -300px;
   width: 1200px;
   height: 800px;
-  background-image: url(./img/phone_afternoon.png);
+  /* background-image: url(./img/phone_afternoon.png); */
 }
 
 /* 1. position */
@@ -184,23 +184,23 @@ nav li.on a {
 }
 
 #wrapper.morning #phone {
-  background-image: url(./img/bg_morning.jpg);
+  background-image: url(./img/phone_morning.png);
 }
 
 #wrapper.afternoon {
   background-image: url(./img/bg_afternoon.jpg);
 }
 
-#wrapper.morning #phone {
-  background-image: url(./img/bg_afternoon.jpg);
+#wrapper.afternoon #phone {
+  background-image: url(./img/phone_afternoon.png);
 }
 
 #wrapper.evening {
   background-image: url(./img/bg_evening.jpg);
 }
 
-#wrapper.morning #phone {
-  background-image: url(./img/bg_evening.jpg);
+#wrapper.evening #phone {
+  background-image: url(./img/phone_evening.png);
 }
 
 #wrapper.night {
@@ -208,5 +208,5 @@ nav li.on a {
 }
 
 #wrapper.night #phone {
-  background-image: url(./img/bg_night.jpg);
+  background-image: url(./img/phone_night.png);
 }
